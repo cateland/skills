@@ -57,12 +57,20 @@ Record only history that helps recover intent. State `No relevant history found`
 
 - `<environment, tooling, related skills, or hard boundaries>`
 
+## Activation replacement
+
+- **Target reference:** `<document or source the replacement must load>`
+- **Replacement mechanism:** `<installed skill, imported memory, hook, enforced command, or none yet>`
+- **Activation trigger:** `<ordinary relevant task step that loads the target before the affected decision>`
+- **Activation evidence:** `<representative task validation, deterministic mechanism, or none>`
+- **Removal readiness:** `<ELIGIBLE or BLOCKED>`
+
 ## Open questions
 
 - `<question that source and history could not resolve, or "None">`
 
 ## Memory disposition
 
-- **Planned source edit:** `<remove, replace, or retain pending resolution>`
+- **Planned source edit:** `<remove, replace, or retain pending an active replacement>`
 - **Approval state:** `<pending, approved, rejected, or blocked>`
 - **Applied in revision:** `<SHA, uncommitted, not applied, or unavailable>`

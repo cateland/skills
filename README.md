@@ -22,14 +22,15 @@ The CLI also supports `--agent pi`, `--agent claude-code`, `--agent codex`, and 
 
 ### `memory-diet`
 
-Audits nested `AGENTS.md` and `CLAUDE.md` files so recurring context contains only guidance that is both undiscoverable and relevant throughout its scope.
+Audits nested `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md` files so recurring context contains only guidance that is relevant throughout its scope or supplies a required activation path.
 
 The skill:
 
 1. classifies every instruction as `KEEP`, `REMOVE`, `EXTRACT`, or `MOVE`
-2. writes an evidence dossier for each proposed skill before changing memory
-3. requests granular approval
-4. applies only approved edits
+2. distinguishes searchable information from guidance reached through a concrete pre-decision activation path
+3. writes an evidence dossier for each proposed skill and blocks removal until an active replacement exists
+4. requests granular approval
+5. applies only approved, eligible edits
 
 Dossiers preserve source text, repository context, and Git provenance so skill extraction can happen in a later session. To turn a dossier into a skill, consider Matt Pocock's [`writing-great-skills`](https://github.com/mattpocock/skills); that repository's README contains its current installation instructions.
 
