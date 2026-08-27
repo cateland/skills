@@ -20,6 +20,10 @@ The CLI also supports `--agent pi`, `--agent claude-code`, `--agent codex`, and 
 
 ## Skills
 
+### `code-comments`
+
+Keeps comments useful and sparse while code is written, edited, refactored, or reviewed. It uses the repository's ubiquitous language and ASD-STE100 Simplified Technical English, and it treats nearby comments as one composition that can be kept, merged, rewritten, or removed.
+
 ### `memory-diet`
 
 Audits nested `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md` files so recurring context contains only guidance that is relevant throughout its scope or supplies a required activation path.
