@@ -12,7 +12,7 @@ Draft only. The user sends every message themselves; never send or publish it.
 
 ## 1. Gather
 
-Read any supplied source thread or document first. Use the `grilling` skill to resolve only what the request and sources leave open. If that skill is unavailable, ask numbered questions in conversation, recommend answers where supported, and wait for answers before asking dependent questions. Look up accessible facts yourself; leave decisions to the user.
+Read any supplied source thread or document first. Resolve only what the request and sources leave open. If the `grilling` skill is available, use it. Otherwise, ask numbered questions in conversation, recommend answers where supported, and wait for answers before asking dependent questions. Look up accessible facts yourself; leave decisions to the user.
 
 Cover:
 
