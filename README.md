@@ -24,6 +24,10 @@ The CLI also supports `--agent pi`, `--agent claude-code`, `--agent codex`, and 
 
 Keeps comments useful and sparse while code is written, edited, refactored, or reviewed. It uses the repository's ubiquitous language and ASD-STE100 Simplified Technical English, and it treats nearby comments as one composition that can be kept, merged, rewritten, or removed.
 
+### `golden-circle-message`
+
+Drafts messages, announcements, and emails in Why → How → What order while keeping the Golden Circle structure hidden in natural prose. Uses `grilling` for unresolved questions when available, matches tone to decision status, and delivers a copy-ready draft for the user to send.
+
 ### `memory-diet`
 
 Audits nested `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md` files so recurring context contains only guidance that is relevant throughout its scope or supplies a required activation path.
