@@ -42,6 +42,10 @@ The skill:
 
 Dossiers preserve source text, repository context, and Git provenance so skill extraction can happen in a later session. To turn a dossier into a skill, consider Matt Pocock's [`writing-great-skills`](https://github.com/mattpocock/skills); that repository's README contains its current installation instructions.
 
+### `rules-table-tests`
+
+Writes or migrates tests as a rules table, after Martin Fowler's [Tests as data](https://martinfowler.com/articles/tests-as-data.html): a markdown file that a person reads as the spec of a rule, and that a generic runner tests row by row. The file explains why the rules exist, defines its terms, and is written in ASD-STE100 Simplified Technical English. Each `##` heading holds the context its rows share, and each row gives only how its case differs. The runner refuses data it does not understand, covers every variant of the input, and the skill proves each rule by breaking it once in the code. A shipping-fee example in TypeScript (vitest, valibot) shows the shape; the principles apply in any language.
+
 ## Repository convention
 
 Each skill lives under `skills/<skill-name>/`. Progressive-disclosure documents and templates attached to a skill live in its `agents/` directory.
