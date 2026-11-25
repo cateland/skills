@@ -22,7 +22,7 @@ The CLI also supports `--agent pi`, `--agent claude-code`, `--agent codex`, and 
 
 ### `code-comments`
 
-Keeps comments useful and sparse while code is written, edited, refactored, or reviewed. It uses the repository's ubiquitous language and ASD-STE100 Simplified Technical English, and it treats nearby comments as one composition that can be kept, merged, rewritten, or removed.
+Deletes, merges, or fixes code comments until only earned ones remain: while code is written, in the comment pass that ends a merge or pull request, and when a declined review suggestion needs its reason in the code. Each comment in scope gets a verdict in a fixed order, with before/after examples and a per-comment report. It uses the repository's glossary and ASD-STE100 Simplified Technical English.
 
 ### `golden-circle-message`
 
